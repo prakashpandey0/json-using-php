@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON</title>
+</head>
+<body>
+	<p id="json_print"></p>
+	<script type="text/javascript">
+		var data = {name:"ram", roll_no:10};
+		
+		var data_json = JSON.stringify(data,['name']);
+		document.write(data_json);
+		 var data_json_array = [data_json];
+		console.log(data_json_array[0]["name"]);
+
+		
+			
+
+		// var json = {"fname":"prakash"};
+		//console.log(json.fname);
+
+		// console.log(typeof(json ));
+		
+		//  var x = data_json[name];
+		// document.getElementById('json_print').innerHTML = x;
+
+
+		// var data_parse = JSON.parse(data_json);
+		// console.log(typeof(data_parse));
+
+		
+
+		
+	</script>
+</body>
+</html>
